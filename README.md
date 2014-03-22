@@ -1,4 +1,3 @@
-colorschemes
-============
+# Intro
 
-Color schemes recommended in exVim
+Alternate color schemes for exVim.
