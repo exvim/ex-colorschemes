@@ -1,12 +1,12 @@
 " ======================================================================================
 " File         : ex_lightgray.vim
-" Author       : Wu Jie 
+" Author       : Wu Jie
 " Last Change  : 05/30/2009 | 19:28:39 PM | Saturday,May
-" Description  : exdev gray color scheme 
+" Description  : exdev gray color scheme
 " ======================================================================================
 
 " /////////////////////////////////////////////////////////////////////////////
-"  prepare 
+"  prepare
 " /////////////////////////////////////////////////////////////////////////////
 
 " Set 'background' back to the default.  The value can't always be estimated
@@ -25,7 +25,7 @@ endif
 let colors_name = "exlightgray"
 
 " /////////////////////////////////////////////////////////////////////////////
-"  Color Define 
+"  Color Define
 " /////////////////////////////////////////////////////////////////////////////
 
 hi Normal       guibg=LightGray
@@ -67,7 +67,7 @@ hi TabLine      term=underline cterm=underline ctermfg=0 ctermbg=7 gui=underline
 hi TabLineSel   term=bold cterm=bold gui=bold
 hi TabLineFill  term=reverse cterm=reverse gui=reverse
 hi CursorColumn term=reverse cterm=none ctermbg=LightCyan gui=none guibg=#bfffff
-hi CursorLine   term=reverse cterm=none ctermbg=LightCyan gui=none guibg=#bfffff 
+hi CursorLine   term=reverse cterm=none ctermbg=LightCyan gui=none guibg=#bfffff
 hi Cursor       guifg=bg guibg=fg
 hi lCursor      guifg=bg guibg=fg
 hi MatchParen   term=reverse ctermbg=11 guibg=Cyan
@@ -75,7 +75,7 @@ hi Comment      term=bold ctermfg=2 guifg=DarkGreen
 hi Constant     term=underline ctermfg=4 guifg=Brown
 hi Special      term=bold ctermfg=11 guifg=SlateBlue
 hi Identifier   term=underline ctermfg=3 guifg=DarkCyan
-hi Statement    term=bold ctermfg=1 gui=none guifg=Blue 
+hi Statement    term=bold ctermfg=1 gui=none guifg=Blue
 hi PreProc      term=underline ctermfg=5 guifg=Purple
 hi Type         term=underline ctermfg=1 gui=none guifg=Blue
 hi Underlined   term=underline cterm=underline ctermfg=11 gui=underline guifg=SlateBlue
